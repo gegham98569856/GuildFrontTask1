@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('path/to/roboto.woff2') format('woff2'),
+         url('path/to/roboto.woff') format('woff');
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('path/to/libre-baskerville.woff2') format('woff2'),
+         url('path/to/libre-baskerville.woff') format('woff');
+}
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
+    box-sizing: border-box;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.button-header {
+    width: 169px;
+    height: 46px;
+    gap: 10px;
+    border: 2px solid #475F45;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.15em;
+    color: #414840;
+}
+.active {
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #414840;
+}
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-text {
+    font-family: 'Roboto', serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 37.5px;
+    text-align: left;
+    color: #414840;
+    width: 471px;
+    height: 76px;
+}
+.button-area {
+    display: flex;
+    gap: 10px;
+}
+.button-main {
+    width: 172px;
+    height: 48px;
+    background-color: #475F45;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #FFFFFF;
+}
+.button-main2 {
+    width: 172px;
+    height: 48px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    color: #475F45;
+    border: 2px solid #475F45;
+}   
+.main-body {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 20px 80px;
+    box-sizing: border-box;
+}
+.main-right {
+    width: 478px;
+    height: 660px;
+    border-radius: 500px 500px 0px 0px;
+    border: 4px solid #343D33;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-photo {
+    border-radius: 500px 500px 0px 0px;
+    width: 458.21px;
+    height: 640.19px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #343D33;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    width: 100%;
+}
+.bottomBigPhoto {
+    height: 440px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 100% 75%;
+    background-image: url('/IMG/bottomBig.png');
+}
+
+.bottomTopPhoto {
+    width: 565px;
+    height: 359px;
+    overflow: hidden;
+}
+.button-main3 {
+    width: 169px;
+    height: 48px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.bottomText {
+    font-family: 'Libre Baskerville', serif;;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 49.5px;
+    color: #FFFFFF;
+    width: 450px;
+    height: 100px;
+}
+.bottomText2 {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 434px;
+}
+.bottomPhotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomTextArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 20px 80px;
+    box-sizing: border-box;
+    background-color: #414840;
+}
+.bottomText3 {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 269px;
+    color: #FFFFFF;
+}
+.bottomText4 {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.bottom-connect {
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+.footer-end {
+    height: 80px;
+    background: #343D33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
